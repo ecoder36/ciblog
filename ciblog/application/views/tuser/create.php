@@ -4,7 +4,7 @@
 <?php echo isset($msg) ? $msg :'' ; ?>
 <?php echo validation_errors(); ?>
 
-<?php echo form_open_multipart('user/create'); date_default_timezone_set('Asia/Riyadh');
+<?php echo form_open_multipart('tuser/create'); date_default_timezone_set('Asia/Riyadh');
  ?>
   <div class="form-group">
     <label>Username</label>

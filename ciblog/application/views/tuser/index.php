@@ -28,9 +28,14 @@ $(document).ready(function() {
 				<td><?php echo $user['id']; ?></td>
 				<td><?php echo $user['username']; ?></td>
 				<td><?php echo $user['email']; ?></td>
-				<td><a class="btn btn-sm btn-default pull-left" href="<?php echo base_url(); ?>user/edit/<?php echo $user['id']; ?>">Edit</a>
-				<?php echo form_open('/user/delete/'.$user['id']); ?><input type="submit" value="Delete" class="btn btn-sm btn-danger"></form>
-				<a class="btn btn-sm btn-default pull-right" href="<?php echo base_url(); ?>user/delete/<?php echo $user['id']; ?>">d2</a>
+				<td>
+					<a class="btn btn-sm btn-default pull-left" href="<?php echo base_url(); ?>tuser/edit/<?php echo $user['id']; ?>jkl">Edit</a>
+						
+				<?php echo form_open('tuser/edit') ?><input type="submit" value="edit2" class="btn btn-sm btn-danger">
+				<input type="hidden" name="id" value="<?php echo $user['id']; ?>">
+				</form>
+				<?php echo form_open('/tuser/delete/'.$user['id']); ?><input type="submit" value="Delete" class="btn btn-sm btn-danger"></form>
+				<a class="btn btn-sm btn-default pull-right" href="<?php echo base_url(); ?>tuser/delete/<?php echo $user['id']; ?>">d2</a>
 				</td>
 			</tr>
 			

@@ -22,8 +22,8 @@
             <li><a href="<?php echo base_url(); ?>">Home</a></li>
             <li><a href="<?php echo base_url(); ?>about">About</a></li>
             <li><a href="<?php echo base_url(); ?>posts">Blog</a></li>
-            <li><a href="<?php echo base_url(); ?>user/create">New User</a></li>
-            <li><a href="<?php echo base_url(); ?>user/index">user list</a></li>
+            <li><a href="<?php echo base_url(); ?>tuser/create">New User</a></li>
+            <li><a href="<?php echo base_url(); ?>tuser/index">user list</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
           <li><a href="<?php echo base_url(); ?>posts/create">Create Post</a></li>

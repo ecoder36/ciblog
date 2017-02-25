@@ -8,7 +8,7 @@
 <?php echo isset($msg) ? $msg :'' ; ?>
 <?php echo validation_errors(); ?>
 
-<?php echo form_open_multipart('user/update/'.$users['id']); date_default_timezone_set('Asia/Riyadh');
+<?php echo form_open_multipart('tuser/update/'.$users['id']); date_default_timezone_set('Asia/Riyadh');
  ?>
  	<input type="hidden" name="id" value="<?php echo $users['id']; ?>">
   <div class="form-group">
@@ -29,7 +29,7 @@
 <!--<div class="form-group">-->
 <!--    <label>Passwordc</label>-->
      <!--<input type="password" class="form-control" name="passconf" value="<?php // echo $users['passconf'] ; ?>" placeholder="passconf" required="">-->
-<!--     <?php // echo form_error('passconf','<span class="help-block">','</span>'); ?>-->
+     <?php // echo form_error('passconf','<span class="help-block">','</span>'); ?>
 <!--   </div>-->
  
   
